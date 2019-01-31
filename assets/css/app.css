@@ -86,3 +86,10 @@ input:focus{
     color: grey;
     text-decoration: line-through;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .container{
+        zoom: 0.7;
+    }
+} 
